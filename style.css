@@ -1,0 +1,76 @@
+/* Streamlit Theme CSS */
+
+:root {
+    --primary-color: #d7f321;
+    --bg-color: #9bc131;
+    --secondary-bg: #090d10;
+    --text-color: #1446bc;
+}
+
+html, body, main, section, footer, .css-1d391kg, .css-1n76uvr, .css-18e3th9, .css-1v3fvcr,
+[data-testid="stAppViewContainer"],
+[data-testid="stAppViewContainer"] > div,
+[data-testid="stAppViewContainer"] > div > div,
+[data-testid="stAppViewContainer"] > div > div > div,
+[data-testid="stAppViewContainer"] > div > div > div > section,
+[data-testid="stAppViewContainer"] > div > div > div > section > div,
+[data-testid="stAppViewContainer"] > div > div > div > section > div > div,
+[data-testid="stAppViewContainer"] > div > div > div > section > div > div > div {
+    background-color: var(--bg-color) !important;
+}
+
+/* Main App Background */
+[data-testid="stAppViewContainer"] {
+    background-color: var(--bg-color) !important;
+}
+
+/* Sidebar Background */
+[data-testid="stSidebar"] {
+    background-color: #ffffff !important;
+}
+
+/* Title and Headings */
+h1 {
+    text-align: center;
+    color: var(--primary-color) !important;
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--text-color) !important;
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+    border: 2px solid var(--primary-color) !important;
+}
+
+button:hover {
+    background-color: #c7e320 !important;
+}
+
+header, .css-1p4p15k, .css-1n76uvr, .css-1v3fvcr, .css-1d391kg { 
+    background-color: #9bc131 !important;
+}
+
+.stApp {
+    background-color: var(--bg-color) !important;
+}
+
+/* Input Fields */
+input, textarea {
+    background-color: var(--secondary-bg) !important;
+    color: var(--text-color) !important;
+    border: 2px solid var(--primary-color) !important;
+}
+
+/* Chat Messages */
+.stChatMessage {
+    background-color: var(--secondary-bg) !important;
+}
+
+/* General Text */
+p, span, label, div {
+    color: var(--text-color) !important;
+}
