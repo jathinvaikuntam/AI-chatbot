@@ -14,7 +14,7 @@ client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
-st.header("Gemini AI Chatbot")
+st.header(" AI Chatbot")
 
 # Load CSS styling
 with open("style.css", "r") as css_file:
